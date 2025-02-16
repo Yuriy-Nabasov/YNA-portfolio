@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/stackers-js-project/",
+    "build": "vite build --base=/YNA-portfolio/",
     "preview": "vite preview"
   },
   "devDependencies": {
