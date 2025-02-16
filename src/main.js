@@ -1,0 +1,11 @@
+import './js/header.js';
+import './js/menu.js';
+import './js/hero.js';
+import './js/aboutMe.js';
+import './js/projects.js';
+import './js/faq.js';
+import './js/covers.js';
+import './js/reviews.js';
+import './js/workTogether.js';
+import './js/settings-for-theme-color.js';
+import './js/scroll-up-btn.js';
