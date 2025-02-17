@@ -59,7 +59,7 @@ body {
 
 body {
   font-family: 'Inter Tight', sans-serif;
-
+  font-weight: 500;
   color: var(--main-text-color);
   background-color: var(--background-color);
 

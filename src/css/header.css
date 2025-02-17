@@ -1,7 +1,7 @@
 .logo-img {
   border-radius: 18px;
-  width: 80px;
-  height: 80px;
+  /* width: 80px;
+  height: 80px; */
 }
 
 .header-logo {
@@ -25,14 +25,14 @@
 
 .dropdown {
   display: none;
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 16px;
   letter-spacing: -0.02em;
   /* color: var(--white-color); */
 }
 
 .dropbtn {
-  font-weight: 500;
+  /* font-weight: 500; */
   outline: none;
   font-size: 16px;
   letter-spacing: -0.02em;
@@ -82,7 +82,6 @@
 .theme-color-open-header-btn,
 .header-order-button {
   display: none;
-
 }
 
 /* --HEADER TABLET-- */
@@ -114,7 +113,6 @@
     display: block;
     text-align: center;
     vertical-align: middle;
-
   }
   .theme-color-open-header-btn.is-open {
     display: block;
@@ -125,7 +123,7 @@
     min-height: 55px;
 
     padding: 16px 22px;
-    font-weight: 500;
+    /* font-weight: 500; */
     font-size: 14px;
     letter-spacing: -0.02em;
     color: var(--main-text);

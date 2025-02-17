@@ -45,7 +45,7 @@
 
 .faq-list-item .faq-panel .faq-text {
   font-family: 'Inter Tight', sans-serif;
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: -0.02em;

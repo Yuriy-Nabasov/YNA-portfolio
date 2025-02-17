@@ -56,7 +56,7 @@
 
 .hero-title {
   display: flex;
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 50px;
   line-height: 1;
   letter-spacing: -0.03em;
@@ -88,7 +88,7 @@
   border: 1px solid var(--white-color-transpent-02);
   border-radius: 60px;
   height: 37px;
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 14px;
   letter-spacing: -0.02em;
 }

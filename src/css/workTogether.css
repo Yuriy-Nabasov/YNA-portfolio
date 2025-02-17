@@ -28,7 +28,7 @@
   max-width: 100%;
 }
 .footer-head {
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 40px;
   line-height: 1;
   letter-spacing: -0.03em;
@@ -54,7 +54,7 @@
   margin-bottom: 64px;
 }
 .footer-input {
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: -0.02em;
@@ -73,7 +73,7 @@
 }
 
 .footer-input::placeholder {
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: -0.02em;
@@ -82,7 +82,7 @@
 .footer-btn {
   border-radius: 100%;
   background-color: var(--accent-color);
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 16px;
   letter-spacing: -0.02em;
   color: var(--main-text-color);
@@ -110,7 +110,7 @@
   padding: 10px 12px;
   width: 178px;
   height: 37px;
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 14px;
   letter-spacing: -0.02em;
   /* color: var(--main-text-color); */
@@ -169,7 +169,7 @@
   text-align: center;
 }
 .modal-text {
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: -0.02em;
@@ -218,7 +218,7 @@ body.modal-open {
 }
 
 .validation-message {
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 14px;
   line-height: 129%;
   letter-spacing: -0.02em;
