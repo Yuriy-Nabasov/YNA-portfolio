@@ -11,24 +11,24 @@
       <picture>
         <source
           srcset="
-            ./img/about_me/desktop-about-me-portrait.jpg    1x,
-            ./img/about_me/desktop-about-me-portrait@2x.jpg 2x
+            ./img/about_me/desktop-about-me-portrait.webp    1x,
+            ./img/about_me/desktop-about-me-portrait@2x.webp 2x
           "
           media="(min-width: 1440px)"
           type="image/jpeg"
         />
         <source
           srcset="
-            ./img/about_me/tablet-about-me-portrait.jpg    1x,
-            ./img/about_me/tablet-about-me-portrait@2x.jpg 2x
+            ./img/about_me/tablet-about-me-portrait.webp    1x,
+            ./img/about_me/tablet-about-me-portrait@2x.webp 2x
           "
           media="(min-width: 768px)"
           type="image/jpeg"
         />
         <source
           srcset="
-            ./img/about_me/mobile-about-me-portrait.jpg    1x,
-            ./img/about_me/mobile-about-me-portrait@2x.jpg 2x
+            ./img/about_me/mobile-about-me-portrait.webp    1x,
+            ./img/about_me/mobile-about-me-portrait@2x.webp 2x
           "
           media="(max-width: 767px)"
           type="image/jpeg"
@@ -36,7 +36,7 @@
 
         <img
           class="first-encounter-subsection-portrait"
-          src="./img/about_me/mobile-about-me-portrait.jpg"
+          src="./img/about_me/mobile-about-me-portrait.webp"
           alt="my-portrait"
           loading="lazy"
         />
@@ -45,7 +45,12 @@
     <div class="description-of-me-subsection">
       <ul class="accordion-container my-styles-accordion-container">
         <li class="ac my-styles-ac about-me-ac">
-          <button class="ac-trigger my-styles-ac-trigger" type="button" aria-controls="about-me-panel" aria-label="About me panel">
+          <button
+            class="ac-trigger my-styles-ac-trigger"
+            type="button"
+            aria-controls="about-me-panel"
+            aria-label="About me panel"
+          >
             <span class="my-styles-accordion-title">About me</span>
             <span class="about-me-ac-icon-wrapper">
               <svg class="about-me-ac-icon" width="18" height="18">
@@ -79,7 +84,12 @@
           </div>
         </li>
         <li class="ac my-styles-ac role-ac">
-          <button class="ac-trigger my-styles-ac-trigger" type="button" aria-controls="role-panel" aria-label="Role panel">
+          <button
+            class="ac-trigger my-styles-ac-trigger"
+            type="button"
+            aria-controls="role-panel"
+            aria-label="Role panel"
+          >
             <span class="my-styles-accordion-title">Role</span>
             <span class="about-me-ac-icon-wrapper">
               <svg class="about-me-ac-icon" width="18" height="18">
@@ -97,7 +107,12 @@
           </div>
         </li>
         <li class="ac my-styles-ac education-ac">
-          <button class="ac-trigger my-styles-ac-trigger" type="button" aria-controls="education-panel" aria-label="Educational panel">
+          <button
+            class="ac-trigger my-styles-ac-trigger"
+            type="button"
+            aria-controls="education-panel"
+            aria-label="Educational panel"
+          >
             <span class="my-styles-accordion-title">Education</span>
             <span class="about-me-ac-icon-wrapper">
               <svg class="about-me-ac-icon" width="18" height="18">
@@ -142,7 +157,11 @@
           <li class="swiper-slide about-me-swiper-slide">Soft skills</li>
         </ul>
       </div>
-      <button class="about-me-swiper-btn-next" type="button" aria-label="Next slide">
+      <button
+        class="about-me-swiper-btn-next"
+        type="button"
+        aria-label="Next slide"
+      >
         <svg class="about-me-swiper-btn-next-icon" width="28" height="28">
           <use href="./img/sprite.svg#icon-arrow-right"></use>
         </svg>
