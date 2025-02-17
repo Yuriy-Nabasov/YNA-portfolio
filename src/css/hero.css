@@ -1,8 +1,8 @@
 .hero-section {
   /* background-image: url('./img/hero_webp/hero-mobile-basis_1x.webp'); */
-  background-size: cover;
+  background-size: contain;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   padding-top: 281px;
   padding-bottom: 32px;
 
@@ -16,7 +16,7 @@
 } */
 
 .hero-section.red {
-  background-image: url('/img/hero_webp/hero-mobile-basis_1x.webp');
+  background-image: url('/img/hero_webp/hero-mobile-basis-line_1x.webp');
 }
 .hero-section.lime {
   background-image: url('/img/hero_webp/hero_colors_2_1x.webp');
@@ -35,7 +35,7 @@
 }
 @media (min-resolution: 2dppx) {
   .hero-section.red {
-    background-image: url('/img/hero_webp/hero-mobile-basis_2x.webp');
+    background-image: url('/img/hero_webp/hero-mobile-basis-line_2x.webp');
   }
   .hero-section.lime {
     background-image: url('/img/hero_webp/hero_colors_2_2x.webp');
@@ -102,12 +102,12 @@
 
 @media only screen and (min-width: 768px) {
   .hero-section.red {
-    background-image: url('/img/hero_webp/hero-tablet-basis_1x.webp');
+    background-image: url('/img/hero_webp/hero-tablet-basis-line_1x.webp');
   }
 
   @media (min-resolution: 2dppx) {
     .hero-section.red {
-      background-image: url('/img/hero_webp/hero-tablet-basis_2x.webp');
+      background-image: url('/img/hero_webp/hero-tablet-basis-line_2x.webp');
     }
   }
   .hero-section {
@@ -136,12 +136,12 @@
 
 @media only screen and (min-width: 1440px) {
   .hero-section.red {
-    background-image: url('/img/hero_webp/hero-desktop-basis_1x.webp');
+    background-image: url('/img/hero_webp/hero-desktop-basis-line_1x.webp');
   }
 
   @media (min-resolution: 2dppx) {
     .hero-section.red {
-      background-image: url('/img/hero_webp/hero-desktop-basis_2x.webp');
+      background-image: url('/img/hero_webp/hero-desktop-basis-line_2x.webp');
     }
   }
   .hero-container {
